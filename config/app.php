@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'embed_url' => env('EMBED_URL', 'http://localhost' ),
+    'embed_url2' => env('EMBED_URL2', 'http://localhost' ),
 ];
